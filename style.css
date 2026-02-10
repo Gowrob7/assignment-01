@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
  
 }
 
@@ -143,5 +144,187 @@ header #navbar{
    
     cursor: pointer;
 }
+#advice{
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1130px;
+    padding: 35px;
+    text-align: center;
+    
 
+  
+}
+#advice .notes-text{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+#advice .work-text{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    
+}
+
+#note-section .card-container{
+    width: 85%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 48px;
+    margin-bottom: 16px;
+}
+#note-section{
+    margin-top: 44px;
+}
+.card-container .box{
+  max-width: 322px;
  
+  box-shadow:  0 0 8px 0 #0000000f;
+ 
+}
+.card-container .icon{
+   width: 60px;
+   height: 60px;
+   background-color: #dd2727;
+   border-radius: 200px;
+  margin: 0 auto;
+ 
+    
+
+}
+.icon img{
+   padding: 15px;
+}
+#note-section .card-container h3{
+font-size: 22px;
+font-weight: 700;
+line-height: 100%;
+text-align: center;
+margin-top: 16px;
+
+
+}
+#note-section .card-container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 16px;
+
+}
+
+#item-container{
+    display: flex;
+    padding-top: 22px
+    
+
+    
+}
+.item-text h2{
+    font-size: 31px;
+    font-weight: 700;
+    margin-top: 15px;
+    font-style: bold;
+    margin-top: 15px;
+}
+
+.item-text h6{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #30B868;
+    
+}
+.item-text .personal{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #627382;
+    
+
+}
+.deatials{
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+  
+
+.capture , .connect , .build , .find{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+#item-container .item-text{
+    padding-top: 102px;
+    gap: 44px;
+}
+
+
+.h-p .clearly{
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 14px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    font-style: bold;
+    
+}
+.h-p .join , .required {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #627382;
+}
+.footer-btn{
+  text-align: center;
+  padding: 12px 16px 0;
+
+}
+.footer-btn .my{
+    padding: 12px 24px;
+  background-color: #4c946c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.my{
+     display: inline-flex;
+    background-color: #08883d;
+    padding: 12px 12px 16px 16px;
+    border: none;
+    border-radius: 7px;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.credit{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #627382;
+    margin-top: 16px;
+
+    
+}
+
+#think-section {
+   width: 81%;
+   max-width: 1340px;
+   margin: 0 auto;
+    padding: 34px 26px;
+    background-color: #F7F6F2 ;
+    border-radius: 12px;
+    
+    
+}
