@@ -43,9 +43,11 @@ header #navbar{
   cursor: pointer;
   
 }
-.nav-btn:hover{
-    background-color: #b3901f;
+#navbar .nav-btn:hover{
+    transition: 0.1s;
+    background-color: #ca522d;
 }
+
 #hero {
 
     background-image: url("./image/hero-bg.png");
@@ -131,6 +133,10 @@ header #navbar{
     color: white;
     cursor: pointer;
  }
+ .arrow-btn:hover{
+    transition: 0.2s;
+    background-color: #1d4f81;
+ }
 .play-btn{
     background: transparent;
     color: white;
@@ -143,6 +149,10 @@ header #navbar{
     font-size: 16px;
    
     cursor: pointer;
+}
+.play-btn:hover{
+    transition: 0.2s;
+    background-color: #1d4f81;
 }
 #advice{
     margin: 0 auto;
@@ -295,6 +305,10 @@ margin-top: 16px;
   font-weight: 600;
   cursor: pointer;
 }
+.footer-btn .my:hover{
+    transition: 0.2s;
+    background-color: #ce3939;
+}
 .my{
      display: inline-flex;
     background-color: #08883d;
@@ -325,37 +339,49 @@ margin-top: 16px;
     padding: 34px 26px;
     background-color: #F7F6F2 ;
     border-radius: 12px;
+    margin-top: 120px;
+    margin-bottom: 120px;
     
     
 }
-#footer .footer-container{
-    padding-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #001931;
-    
-}
-#footer .footer-logo{
-   padding: 80px 65px ;
-   margin-bottom: 168px;
-}
-.footer-container .social{
-    padding: 120px 164px;
-
-}
-
-.social .link{
-    display: flex;
-    color: #FFFFFF;
-    justify-content: space-around;
-    margin-top: 16px;
-    
-}
-.social-link{
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
 
 
+.footer {
+
+  background-color: #001f3f; 
+  color: white;
+  padding: 40px 10%;
+  
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.footer-line {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); 
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #adb5bd;
+}
+
+.social-links p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.icons a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 20px;
 }
